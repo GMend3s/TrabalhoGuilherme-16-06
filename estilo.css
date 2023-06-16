@@ -1,0 +1,55 @@
+html {
+    font-family: sans-serif;
+}
+
+
+nav {
+    background-color: white;
+    padding: 1rem 6rem 1rem 6rem;
+    text-align: right;
+    word-spacing: 2rem;
+    position: fixed;
+    width: 100%;
+}
+
+
+#Barcos {
+    width: 100%;
+    height: 100%;
+}
+
+
+body {
+    background-color: #f8f6f7;
+}
+
+
+main {
+    padding: 2rem 6rem 2rem 6rem;
+}
+
+
+h2 {
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+
+.locais, .locais2 {
+    display: flex;
+    flex-wrap: nowrap;
+    gap: 50px;
+    margin-bottom: 1rem;
+    width: 70px;
+    height: 120px;
+    padding-top: 0.5rem;
+}
+
+
+#Rio, #Maceio, #Bonito, #Salvador, #SaoPaulo, #Fortaleza, #Foz, #BH{
+    border-radius: 7%;
+    display: flex;
+    flex-wrap: nowrap;
+    background-position: center;
+    background-size: cover;
+}
